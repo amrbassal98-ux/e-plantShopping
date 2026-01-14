@@ -1,25 +1,30 @@
 .about-us-container {
-    max-width: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 20px;
-    text-align: justify;
-    color: white;    
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    width: 95%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    color: white;
+    text-align: center;
 }
   
   .about-us-heading {
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
+    color: #4caf50;
+    margin-bottom: 15px;
     text-align: center;
   }
   
   .about-us-description {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 30px;
+    font-size: 1.2rem;
+    color: #e0e0e0;
+    margin-bottom: 25px;
     text-align: center;
+    line-height:1.5;
   }
   
   .about-us-content {
